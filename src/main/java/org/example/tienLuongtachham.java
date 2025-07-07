@@ -32,5 +32,7 @@ public class tienLuongtachham {
 System.out.println(tongLuong);
 
             System.out.println("Hello world");
+
+            System.out.println("Hello world");
 }
 }
