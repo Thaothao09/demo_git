@@ -30,5 +30,7 @@ public class tienLuongtachham {
 //giá trị đầu ra từ yêu cầu của đề
 //sout("...")
 System.out.println(tongLuong);
+
+            System.out.println("Hello world");
 }
 }
