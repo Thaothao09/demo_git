@@ -25,5 +25,6 @@ public class Ham {
     double diemHoa=9;
     double dtb=dtb(diemToan,diemLy,diemHoa);
     System.out.println(dtb);
+        System.out.println("Test");
     }
 }
