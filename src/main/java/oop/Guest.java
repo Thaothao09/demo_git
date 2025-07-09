@@ -13,5 +13,8 @@ public class Guest extends User {
         System.out.println("Email:" + email);
     }
 
-    ;
+    @Override
+    public void welcomeMessage(){
+        System.out.println("Welcome Guest" + getName() + " limit feature access");
+    }
 }

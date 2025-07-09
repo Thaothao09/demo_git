@@ -5,6 +5,7 @@ public class Main {
         //tạo ra 1 đối tượng là user
         User user = new User("Thành ",18, " 123123");
         user.displayInfo();
+        user.welcomeMessage();
 
         user.setName("Giang");
         user.setAge(27);
@@ -17,5 +18,8 @@ public class Main {
         Guest guest = new Guest("Tuyến", 18, "0919", "phuongthao");
         guest.displayInfo();
         guest.welcomeMessage();
+
+        BaseUser user1 = new NormalUser("Linh", 16);
+        user1.showMessage();
     }
 }
